@@ -5,14 +5,10 @@
 	let components = [{
 		component: StdIn,
 		props: {  }
-    }];
+	}];
 
 	function handleCommand(event) {
-		components = [
-						...components, 
-						{component: StdOut, props: {command: event.detail.command.toLowerCase()}},
-						{component: StdIn, props: {}}
-					 ]
+		components = [...components, {component: StdOut, props: {command: event.detail.command.toLowerCase()}}, {component: StdIn, props: {}}]
 	}
 
 </script>
