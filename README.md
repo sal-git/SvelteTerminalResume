@@ -2,7 +2,7 @@
 
 # Svelte Terminal Resume
 
-This is basically a interactive resume in a form of a termianl GUI.
+This is basically an interactive resume in a form of a termianl GUI.
 
 It's also a small project to test the Svelte Framework...wait, compiler? I had originally wanted to do it in Vue.js, but stopped mid way through. The unfinished Vue.js project has close to double the amount of code that this project has!
 
